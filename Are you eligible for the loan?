@@ -1,0 +1,14 @@
+# Are you eligible for the loan?
+price = 1000000.00
+good_credit = True
+if good_credit:
+    down_payment = 0.10 * price
+else:
+    down_payment = 0.20 * price
+print(f"Down payment: ${down_payment}")
+
+has_high_income = True
+has_good_credit= True
+
+if has_high_income and has_good_credit:
+    print("Eligible for loan")
