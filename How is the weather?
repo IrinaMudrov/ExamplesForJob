@@ -1,0 +1,13 @@
+#How is the weather in San-Francisco?
+today_is_hot = False
+today_is_cold = False
+if today_is_hot:
+        print("It's a hot day")
+        print("Please, drink plenty of water")
+elif today_is_cold:
+        print("It's a cold day")
+        print("Please take care of yourself and wear warm clothes")
+else:
+    print("Today is a lovely sunny day")
+
+print("Please, enjoy your day")
