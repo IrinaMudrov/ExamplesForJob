@@ -1,0 +1,14 @@
+# Handling Exception Errors
+try:
+    age = int(input ("Age: "))
+    income = 40000
+    risk = income / age
+    print(age)
+
+# If the input equals zero
+except ZeroDivisionError:
+    print ("Age cannot be 0.")
+
+# If the input not integer
+except ValueError:
+    print("Invalid Error")
